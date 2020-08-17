@@ -1,0 +1,21 @@
+.mrg {
+  &__bottom {
+    &--50 {
+      margin-bottom: 50px;
+    }
+    &--30 {
+      margin-bottom: 30px;
+    }
+  }
+  &__top {
+    &--50 {
+      margin-top: 50px;
+    }
+    &--30 {
+      margin-top: 30px;
+    }
+    &--20 {
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.footer {
+  background: #dee2e6;
+  &--link {
+    color: #212529;
+    text-decoration: none;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    transition: all 0.4s;
+  }
+}

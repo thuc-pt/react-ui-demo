@@ -1,0 +1,50 @@
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .authen {
+    &__form {
+      width: 95%;
+      padding: 10px 25px;
+    }
+  }
+  .footer.justify-content-end {
+    justify-content: center !important;
+  }
+  .footer .navbar-nav {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 575px) {
+  .authen {
+    &__form {
+      width: 90%;
+      padding: 20px 50px;
+    }
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .authen {
+    &__form {
+      width: 80%;
+      padding: 30px 75px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .authen {
+    &__form {
+      width: 70%;
+      padding: 40px 100px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .authen {
+    &__form {
+      width: 60%;
+      padding: 50px 125px;
+    }
+  }
+}
